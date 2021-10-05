@@ -1,7 +1,7 @@
-size(100, 100);
+size(500, 500);
 noStroke();
 
-background(20,255,255);
+background(20, 255, 255);
 
 //face
 ellipse(width * 0.5, height * 0.2, width * 0.30, height * 0.30);
@@ -10,23 +10,24 @@ ellipse(width * 0.5, height * 0.2, width * 0.30, height * 0.30);
 fill(0,0,0);
 ellipse(width * 0.5,height * 0.54 ,width * 0.38,height * 0.47);
 
-// left eye 
-fill(0,0,0);
-ellipse(width * 0.55,height * 0.15,width * 0.05,height * 0.05);
+// Right eye 
+fill(0, 0, 0);
+ellipse(width * 0.55, height * 0.15, width * 0.05, height * 0.05);
 fill(255,255,255);
-ellipse(width * 0.55,height * 0.15,width * 0.02,height * 0.02);
 
-// right eye
+ellipse(width * 0.55, height * 0.15, width * 0.02, height * 0.02);
+
+// Left Eye
 fill(0,0,0);
-ellipse(width *0.42,height * 0.15,width * 0.05,height * 0.05);
+ellipse(width * 0.42, height * 0.15, width * 0.05, height * 0.05);
 
-fill(225,225,225);
-ellipse(width * 0.42,height * 0.15,width * 0.05,height * 0.05);
+fill(225, 225, 225);
+ellipse(width * 0.42, height * 0.15, width * 0.02, height * 0.02);
+
+
 
 //left ear
-
 fill(8,8,8);
-
 ellipse(width * 0.36,height * 0.1,width * 0.09 ,height * 0.09);
 
 // right ear
